@@ -1,0 +1,16 @@
+Algoritmo "CalculoCubo"
+
+Var
+   num, resultado : real
+
+Funcao cubo(n: real): real
+Inicio
+   retorne n*n*n
+FimFuncao
+
+Inicio
+   escreval("Digite um número: ")
+   leia(num)
+   resultado <- cubo(num)
+   escreval("O cubo do número é: ", resultado)
+FimAlgoritmo
