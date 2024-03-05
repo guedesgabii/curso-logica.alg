@@ -1,0 +1,19 @@
+Algoritmo "ParOuImpar"
+
+Var
+   numero : inteiro
+
+Funcao ePar(n: inteiro): logico
+Inicio
+   retorne n mod 2 = 0
+FimFuncao
+
+Inicio
+   escreval("Digite um número: ")
+   leia(numero)
+   se ePar(numero) entao
+      escreval("O número é par.")
+   senao
+      escreval("O número é ímpar.")
+   fimse
+FimAlgoritmo
