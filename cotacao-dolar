@@ -1,0 +1,13 @@
+Algoritmo "ConversaoDolar"
+
+Var
+   valorReais, cotacaoDolar, valorDolar : real
+
+Inicio
+   escreval("Digite a quantia em reais que você deseja converter: ")
+   leia(valorReais)
+   escreval("Digite a cotação do dólar no dia: ")
+   leia(cotacaoDolar)
+   valorDolar <- valorReais / cotacaoDolar
+   escreval("O valor em dólares é: ", valorDolar)
+FimAlgoritmo
