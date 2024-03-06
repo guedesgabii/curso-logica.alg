@@ -1,0 +1,18 @@
+Algoritmo "ResultadoFinal"
+
+Var
+   notaFinal : real
+
+Inicio
+   escreval("Digite a nota final do aluno: ")
+   leia(notaFinal)
+   se notaFinal >= 7 entao
+      escreval("Aprovado")
+   senao
+      se notaFinal >= 4 entao
+         escreval("Recuperação")
+      senao
+         escreval("Reprovado")
+      fimse
+   fimse
+FimAlgoritmo
