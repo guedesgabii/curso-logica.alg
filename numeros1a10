@@ -1,0 +1,12 @@
+Algoritmo "Numeros1a10"
+
+Var
+   numero : inteiro
+
+Inicio
+   numero <- 1
+   enquanto numero <= 10 faca
+      escreval(numero)
+      numero <- numero + 1
+   fimenquanto
+FimAlgoritmo
