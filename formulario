@@ -1,0 +1,12 @@
+Algoritmo "Formulario"
+
+Var
+   valor : real
+
+Inicio
+   repita
+      escreval("Insira um valor igual ou maior que zero: ")
+      leia(valor)
+   ate valor >= 0
+   escreval("Valor válido.")
+FimAlgoritmo
