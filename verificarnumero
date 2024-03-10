@@ -1,0 +1,16 @@
+Algoritmo "VerificarNumero"
+Var
+   numero: inteiro
+inicio
+   escreval("Digite um número: ")
+   leia(numero)
+   se numero = 5 entao
+      escreval("O número é igual a 5.")
+   senao
+      se numero > 5 entao
+         escreval("O número é maior que 5.")
+      senao
+         escreval("O número é menor que 5.")
+      fimse
+   fimse
+fimalgoritmo
