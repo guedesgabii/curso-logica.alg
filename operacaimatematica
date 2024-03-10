@@ -1,0 +1,37 @@
+Algoritmo "OperacaoMatematica"
+Var
+   numero1, numero2: inteiro
+   operacao: caractere
+   resultado: real
+inicio
+   escreval("Digite o primeiro número: ")
+   leia(numero1)
+   escreval("Digite o segundo número: ")
+   leia(numero2)
+   escreval("Escolha a operação que deseja realizar (+, -, *, /): ")
+   leia(operacao)
+   se operacao = "+" entao
+      resultado <- numero1 + numero2
+   senao
+      se operacao = "-" entao
+         resultado <- numero1 - numero2
+      senao
+         se operacao = "*" entao
+            resultado <- numero1 * numero2
+         senao
+            se operacao = "/" entao
+               se numero2 <> 0 entao
+                  resultado <- numero1 / numero2
+               senao
+                  escreval("Erro! Divisão por zero não é permitida.")
+                  pare
+               fimse
+            senao
+               escreval("Operação inválida.")
+               pare
+            fimse
+         fimse
+      fimse
+   fimse
+   escreval("O resultado da operação é: ", resultado)
+fimalgoritmo
